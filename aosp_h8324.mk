@@ -19,7 +19,8 @@ $(call inherit-product, device/sony/apollo/aosp_h8314.mk)
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.multisim.config=dsds \
     persist.radio.multisim.config=dsds \
-    ro.telephony.default_network=9,1
+    ro.telephony.default_network=9,9 \
+    persist.vendor.radio.block_allow_data=0
 
 PRODUCT_NAME := aosp_h8324
 PRODUCT_DEVICE := apollo
