@@ -60,10 +60,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     power.apollo
 
-# NFC config
-PRODUCT_PACKAGES += \
-    nfc_nci.apollo
-
 # Telephony Packages (AOSP)
 PRODUCT_PACKAGES += \
     InCallUI \
