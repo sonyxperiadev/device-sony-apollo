@@ -90,10 +90,6 @@ PRODUCT_PACKAGES += \
     init.recovery.apollo \
     init.apollo
 
-# Simple PowerHAL
-PRODUCT_PACKAGES += \
-    power.apollo
-
 # Telephony Packages (AOSP)
 PRODUCT_PACKAGES += \
     InCallUI \
