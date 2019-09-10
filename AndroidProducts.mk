@@ -14,3 +14,10 @@
 
 PRODUCT_MAKEFILES := $(LOCAL_DIR)/aosp_h8314.mk \
                      $(LOCAL_DIR)/aosp_h8324.mk
+
+COMMON_LUNCH_CHOICES += \
+    aosp_h8314-eng \
+    aosp_h8314-userdebug \
+    aosp_h8324-eng \
+    aosp_h8324-userdebug
+
