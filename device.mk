@@ -83,6 +83,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/vendor/firmware/wlan/qca_cld/bdwlan.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/qca_cld/bdwlan.bin
 
+# TS
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/vendor/firmware/touch_module_id_0x30.img:$(TARGET_COPY_OUT_VENDOR)/firmware/touch_module_id_0x30.img \
+    $(DEVICE_PATH)/vendor/firmware/touch_module_id_0x31.img:$(TARGET_COPY_OUT_VENDOR)/firmware/touch_module_id_0x31.img
+
 # Device Init
 PRODUCT_PACKAGES += \
     fstab.apollo \
