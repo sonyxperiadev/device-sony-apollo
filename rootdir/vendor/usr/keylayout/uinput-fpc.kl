@@ -1,0 +1,19 @@
+# Apollo's sensor is rotated 90 degrees clockwise compared to other Tama
+# devices.
+# So swiping left actually reports a "down" gesture from the FPC HAL.
+# For Apollo, however, left and right are *not* swapped.
+
+key 108   SYSTEM_NAVIGATION_LEFT
+key 103   SYSTEM_NAVIGATION_RIGHT
+key 106   SYSTEM_NAVIGATION_UP
+key 105   SYSTEM_NAVIGATION_DOWN
+
+# Apollo, as seen from the front
+#
+#            106
+#             ^
+#             |
+#    108 <----|----> 103
+#             |
+#             v
+#            105
